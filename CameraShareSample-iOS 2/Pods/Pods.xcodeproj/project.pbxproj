@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049EFEB325264CD949C9DB96C066A963 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB7CE4F8614894537484C4676F14345 /* AVFoundation.framework */; };
+		16253FED0268CF399036D96FC776662E /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCFD22AFB1CAA5326DF52207B042E7C /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A3AF53CB242FC010A8510D7E6936D37 /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5B4136ED34325000B7B7D91E98FB11 /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B38DDBD1208912E0D0B58E2F075CA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847B509D9F48513131839DABDDE031B4 /* Foundation.framework */; };
+		2CC5D3FE30D5F6426A739EACEB168934 /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9678CF5195A98AE5DB5C77873FBD6EE2 /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32DFC283A6263640D9FD46F07DFF4C1C /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E18FD6D4570848F82D47A3BB04838F /* Flurry-iOS-SDK-dummy.m */; };
+		39AEC7BEA477C0AF0FBB0F292214001C /* Pods-CameraShareSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7668CEDA4A54AD62823E2D05F75F56 /* Pods-CameraShareSample-dummy.m */; };
+		3A0075206E4EBB61613B52164622CBAD /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1521553CD74A1CFA9B99931843DE21 /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44693717A5DFD11AC399EC4B8AEC3DBA /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = AD38D2D8EA0D5940AD8BDFE95CCC6495 /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49147C1522E10A36DEAEE83CD1E55C81 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164392DBAB0F97D9A027FFCBCB17773 /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5AEB3F8D50D836E3917625B5AC1DCB0C /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A021D7388E52B5D588DE356DCC91111 /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62899D801DAA80FE6E99C90DCD6B3BBB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DB274AE9DED56458CA6F2F33BFF30B /* CoreTelephony.framework */; };
+		63A1303942B2E319D64A28717453A3C5 /* FlurryAdsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = B827E216A3BA113A68A2A6B0FC19391B /* FlurryAdsEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		666FA217B24BE5038B3CEE57DEB60483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FF4652A85574747031C3879446F6BF /* CoreGraphics.framework */; };
+		6C8B7C96A0E5CEB8D8253644EE9CEDF5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCBDD7C95C8FC3A7F54C5101B2DC308 /* WebKit.framework */; };
+		80F1785D230BA74762A142B7A2A98A1B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = AA320DC6421717A28F71F745A5966707 /* Flurry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8768B351443B762E35B68A2DB194F4D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C981449FA5B920EBD22DB663451986 /* UIKit.framework */; };
+		A0F1A5731B2F03EE0BB22B8BE7789420 /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC4B5522C502B8F357EE9C77238D44B /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8998D40E399A654309F1E1C4EA33099 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875CA153137FA714270D015903881898 /* SystemConfiguration.framework */; };
+		B246EC4AAF707A529E356D9ED4528D50 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F6956BDC2F2326351C29444AF238D6 /* MediaPlayer.framework */; };
+		B9E2B9521F81D109083F602931F327DC /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0734F0E02F9DCB6DF2CDFB0A9E355F /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAC9594FB08CD485BE843D67A6F86722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847B509D9F48513131839DABDDE031B4 /* Foundation.framework */; };
+		D71E555649E2ECC49ADCEB1160578C44 /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5F6CD161948E0DC7AE16500FE2CB41 /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC9355ADAF4755B6DDDE1CFDFC221DD0 /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 075CECC3C6195713F46C41257BEE73DB /* FlurryAdError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E13CD1750563E1A5D2C84B4887F8CC68 /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CE7C8FB7BD42736F45928E57C25DD2 /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F597E0D9A48D1E339FBCC00A3216DFFB /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AECA3FCA5B3B3F1578951A74FD2F34 /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6C5743D5931AE56F698BC66EA2FA821 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B5D8E89EFCEE2223991A7A947F0B9E /* Security.framework */; };
+		F816CD6AE9833591C4C05591D9C8ADA8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578D2FAC4DA94CCD83E0B9879EC4C1CF /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F38809157680BE967CB633EDC365BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C312E9008F65871B12B935A3C72BE83C;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FDF4DF952DBB3FED4D9A25A7CF2C3C /* Pods-CameraShareSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraShareSample.release.xcconfig"; sourceTree = "<group>"; };
+		03DB274AE9DED56458CA6F2F33BFF30B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		075CECC3C6195713F46C41257BEE73DB /* FlurryAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdError.h; path = FlurryAds/Shared/FlurryAdError.h; sourceTree = "<group>"; };
+		081810C8E284E043E4E5D65531D53B54 /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		0D5B4136ED34325000B7B7D91E98FB11 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeStyle.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		1C070656D39F30943C332EF710E6166B /* Pods-CameraShareSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraShareSample-frameworks.sh"; sourceTree = "<group>"; };
+		2164392DBAB0F97D9A027FFCBCB17773 /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		286EE91C62FF6CE7A2C078309CC9BEB5 /* libPods-CameraShareSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CameraShareSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5F6CD161948E0DC7AE16500FE2CB41 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdDelegate.h; path = FlurryAds/StaticAPI/FlurryAdDelegate.h; sourceTree = "<group>"; };
+		2CCBDD7C95C8FC3A7F54C5101B2DC308 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DE9D531F3B3A47945F65172028AA7E1 /* Pods-CameraShareSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraShareSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F0734F0E02F9DCB6DF2CDFB0A9E355F /* FlurryAdNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNative.h; path = FlurryAds/FlurryAdNative/FlurryAdNative.h; sourceTree = "<group>"; };
+		55F6956BDC2F2326351C29444AF238D6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		578D2FAC4DA94CCD83E0B9879EC4C1CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		5C2F5D325A758B449E268EDF3390885C /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		69B5D8E89EFCEE2223991A7A947F0B9E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6A021D7388E52B5D588DE356DCC91111 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeAsset.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		6C47C368AF86F7B1CCB8F2F5ADC4C9AB /* Pods-CameraShareSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraShareSample-resources.sh"; sourceTree = "<group>"; };
+		7100F8AC4E250CD43BB6A753F465C990 /* libFlurry_8.3.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_8.3.4.a; path = Flurry/libFlurry_8.3.4.a; sourceTree = "<group>"; };
+		73CE7C8FB7BD42736F45928E57C25DD2 /* FlurryAdBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBanner.h; path = FlurryAds/FlurryAdBanner/FlurryAdBanner.h; sourceTree = "<group>"; };
+		79C981449FA5B920EBD22DB663451986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7BC4B5522C502B8F357EE9C77238D44B /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBannerDelegate.h; path = FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		7CCFD22AFB1CAA5326DF52207B042E7C /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitial.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		7DB7CE4F8614894537484C4676F14345 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		83DE8491153E9BB93DE5928663416E89 /* Pods-CameraShareSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraShareSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		847B509D9F48513131839DABDDE031B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		875CA153137FA714270D015903881898 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9678CF5195A98AE5DB5C77873FBD6EE2 /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitialDelegate.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		9FC96AF19F7EE3852E64D9F54B2F6BFC /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA320DC6421717A28F71F745A5966707 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		AD1521553CD74A1CFA9B99931843DE21 /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurrySessionBuilder.h; path = Flurry/FlurrySessionBuilder.h; sourceTree = "<group>"; };
+		AD38D2D8EA0D5940AD8BDFE95CCC6495 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdTargeting.h; path = FlurryAds/Shared/FlurryAdTargeting.h; sourceTree = "<group>"; };
+		AE7668CEDA4A54AD62823E2D05F75F56 /* Pods-CameraShareSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraShareSample-dummy.m"; sourceTree = "<group>"; };
+		B827E216A3BA113A68A2A6B0FC19391B /* FlurryAdsEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryAdsEmpty.m; path = FlurryAds/FlurryAdsEmpty.m; sourceTree = "<group>"; };
+		C81347337B564B3A6C1212705D36F469 /* libFlurryAds_8.3.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryAds_8.3.4.a; path = FlurryAds/libFlurryAds_8.3.4.a; sourceTree = "<group>"; };
+		D9E18FD6D4570848F82D47A3BB04838F /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		EE20DE7220387172E9835D7DA76C4B27 /* Pods-CameraShareSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraShareSample.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AECA3FCA5B3B3F1578951A74FD2F34 /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeDelegate.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		F9FF4652A85574747031C3879446F6BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF6648558C07E3045D141DC766A344F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B38DDBD1208912E0D0B58E2F075CA1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DE517C676830335B4FEE215C6F5B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049EFEB325264CD949C9DB96C066A963 /* AVFoundation.framework in Frameworks */,
+				666FA217B24BE5038B3CEE57DEB60483 /* CoreGraphics.framework in Frameworks */,
+				F816CD6AE9833591C4C05591D9C8ADA8 /* CoreMedia.framework in Frameworks */,
+				62899D801DAA80FE6E99C90DCD6B3BBB /* CoreTelephony.framework in Frameworks */,
+				CAC9594FB08CD485BE843D67A6F86722 /* Foundation.framework in Frameworks */,
+				B246EC4AAF707A529E356D9ED4528D50 /* MediaPlayer.framework in Frameworks */,
+				F6C5743D5931AE56F698BC66EA2FA821 /* Security.framework in Frameworks */,
+				A8998D40E399A654309F1E1C4EA33099 /* SystemConfiguration.framework in Frameworks */,
+				8768B351443B762E35B68A2DB194F4D0 /* UIKit.framework in Frameworks */,
+				6C8B7C96A0E5CEB8D8253644EE9CEDF5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B1CA985CE6892A3F4095D59CD6632E /* Pods-CameraShareSample */ = {
+			isa = PBXGroup;
+			children = (
+				83DE8491153E9BB93DE5928663416E89 /* Pods-CameraShareSample-acknowledgements.markdown */,
+				3DE9D531F3B3A47945F65172028AA7E1 /* Pods-CameraShareSample-acknowledgements.plist */,
+				AE7668CEDA4A54AD62823E2D05F75F56 /* Pods-CameraShareSample-dummy.m */,
+				1C070656D39F30943C332EF710E6166B /* Pods-CameraShareSample-frameworks.sh */,
+				6C47C368AF86F7B1CCB8F2F5ADC4C9AB /* Pods-CameraShareSample-resources.sh */,
+				EE20DE7220387172E9835D7DA76C4B27 /* Pods-CameraShareSample.debug.xcconfig */,
+				02FDF4DF952DBB3FED4D9A25A7CF2C3C /* Pods-CameraShareSample.release.xcconfig */,
+			);
+			name = "Pods-CameraShareSample";
+			path = "Target Support Files/Pods-CameraShareSample";
+			sourceTree = "<group>";
+		};
+		19E70EBE26292E46D73AFD27130D7121 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B1CA985CE6892A3F4095D59CD6632E /* Pods-CameraShareSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AE9122D7DC0DDEA1800CDDC1DF407ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C81347337B564B3A6C1212705D36F469 /* libFlurryAds_8.3.4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49D720A39519BD2C0D934A4905A63885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7100F8AC4E250CD43BB6A753F465C990 /* libFlurry_8.3.4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
+				ACDDE0CADA4CA088A63F07511D9341F2 /* Pods */,
+				BD3D79180EEEB3394165B836BD27AB7B /* Products */,
+				19E70EBE26292E46D73AFD27130D7121 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DAFB3154DBA2CFA28E11B305E021EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DAFB3154DBA2CFA28E11B305E021EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7CE4F8614894537484C4676F14345 /* AVFoundation.framework */,
+				F9FF4652A85574747031C3879446F6BF /* CoreGraphics.framework */,
+				578D2FAC4DA94CCD83E0B9879EC4C1CF /* CoreMedia.framework */,
+				03DB274AE9DED56458CA6F2F33BFF30B /* CoreTelephony.framework */,
+				847B509D9F48513131839DABDDE031B4 /* Foundation.framework */,
+				55F6956BDC2F2326351C29444AF238D6 /* MediaPlayer.framework */,
+				69B5D8E89EFCEE2223991A7A947F0B9E /* Security.framework */,
+				875CA153137FA714270D015903881898 /* SystemConfiguration.framework */,
+				79C981449FA5B920EBD22DB663451986 /* UIKit.framework */,
+				2CCBDD7C95C8FC3A7F54C5101B2DC308 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ACDDE0CADA4CA088A63F07511D9341F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD79A7D2AC57FE7808EEE39C6DB6B94F /* Flurry-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD79A7D2AC57FE7808EEE39C6DB6B94F /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9179369968AC05953FD50292C2E1D /* FlurryAds */,
+				BBEFB321059387DD70DCF6A2F9A7FBAB /* FlurrySDK */,
+				D4FEF63EB03DEEBCE8214B8A4334D9AD /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		BBEFB321059387DD70DCF6A2F9A7FBAB /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AA320DC6421717A28F71F745A5966707 /* Flurry.h */,
+				2164392DBAB0F97D9A027FFCBCB17773 /* FlurryEmpty.m */,
+				AD1521553CD74A1CFA9B99931843DE21 /* FlurrySessionBuilder.h */,
+				49D720A39519BD2C0D934A4905A63885 /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		BD3D79180EEEB3394165B836BD27AB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC96AF19F7EE3852E64D9F54B2F6BFC /* libFlurry-iOS-SDK.a */,
+				286EE91C62FF6CE7A2C078309CC9BEB5 /* libPods-CameraShareSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E9179369968AC05953FD50292C2E1D /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				73CE7C8FB7BD42736F45928E57C25DD2 /* FlurryAdBanner.h */,
+				7BC4B5522C502B8F357EE9C77238D44B /* FlurryAdBannerDelegate.h */,
+				2C5F6CD161948E0DC7AE16500FE2CB41 /* FlurryAdDelegate.h */,
+				075CECC3C6195713F46C41257BEE73DB /* FlurryAdError.h */,
+				7CCFD22AFB1CAA5326DF52207B042E7C /* FlurryAdInterstitial.h */,
+				9678CF5195A98AE5DB5C77873FBD6EE2 /* FlurryAdInterstitialDelegate.h */,
+				3F0734F0E02F9DCB6DF2CDFB0A9E355F /* FlurryAdNative.h */,
+				6A021D7388E52B5D588DE356DCC91111 /* FlurryAdNativeAsset.h */,
+				F6AECA3FCA5B3B3F1578951A74FD2F34 /* FlurryAdNativeDelegate.h */,
+				0D5B4136ED34325000B7B7D91E98FB11 /* FlurryAdNativeStyle.h */,
+				B827E216A3BA113A68A2A6B0FC19391B /* FlurryAdsEmpty.m */,
+				AD38D2D8EA0D5940AD8BDFE95CCC6495 /* FlurryAdTargeting.h */,
+				3AE9122D7DC0DDEA1800CDDC1DF407ED /* Frameworks */,
+			);
+			name = FlurryAds;
+			sourceTree = "<group>";
+		};
+		D4FEF63EB03DEEBCE8214B8A4334D9AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F5D325A758B449E268EDF3390885C /* Flurry-iOS-SDK.xcconfig */,
+				D9E18FD6D4570848F82D47A3BB04838F /* Flurry-iOS-SDK-dummy.m */,
+				081810C8E284E043E4E5D65531D53B54 /* Flurry-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F1A7CB07087A1B25CA657B5C8A27E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F1785D230BA74762A142B7A2A98A1B /* Flurry.h in Headers */,
+				E13CD1750563E1A5D2C84B4887F8CC68 /* FlurryAdBanner.h in Headers */,
+				A0F1A5731B2F03EE0BB22B8BE7789420 /* FlurryAdBannerDelegate.h in Headers */,
+				D71E555649E2ECC49ADCEB1160578C44 /* FlurryAdDelegate.h in Headers */,
+				DC9355ADAF4755B6DDDE1CFDFC221DD0 /* FlurryAdError.h in Headers */,
+				16253FED0268CF399036D96FC776662E /* FlurryAdInterstitial.h in Headers */,
+				2CC5D3FE30D5F6426A739EACEB168934 /* FlurryAdInterstitialDelegate.h in Headers */,
+				B9E2B9521F81D109083F602931F327DC /* FlurryAdNative.h in Headers */,
+				5AEB3F8D50D836E3917625B5AC1DCB0C /* FlurryAdNativeAsset.h in Headers */,
+				F597E0D9A48D1E339FBCC00A3216DFFB /* FlurryAdNativeDelegate.h in Headers */,
+				1A3AF53CB242FC010A8510D7E6936D37 /* FlurryAdNativeStyle.h in Headers */,
+				44693717A5DFD11AC399EC4B8AEC3DBA /* FlurryAdTargeting.h in Headers */,
+				3A0075206E4EBB61613B52164622CBAD /* FlurrySessionBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C312E9008F65871B12B935A3C72BE83C /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D8B0648874B4A5014F0119D33C0B17 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				672DD3FD682091A59B589BD0FFAC7F64 /* Sources */,
+				A7DE517C676830335B4FEE215C6F5B95 /* Frameworks */,
+				2F1A7CB07087A1B25CA657B5C8A27E80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = 9FC96AF19F7EE3852E64D9F54B2F6BFC /* libFlurry-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C711F37E6958FD7E8516C3BC9D74DFCF /* Pods-CameraShareSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD7B27B5544FD200C4E6FFE4A736BBF /* Build configuration list for PBXNativeTarget "Pods-CameraShareSample" */;
+			buildPhases = (
+				DCE982BB421DC0263E28BCC31D47A5F9 /* Sources */,
+				4DF6648558C07E3045D141DC766A344F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B905D5AF4D2DE3C4CC92D34F6CE076 /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraShareSample";
+			productName = "Pods-CameraShareSample";
+			productReference = 286EE91C62FF6CE7A2C078309CC9BEB5 /* libPods-CameraShareSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD3D79180EEEB3394165B836BD27AB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C312E9008F65871B12B935A3C72BE83C /* Flurry-iOS-SDK */,
+				C711F37E6958FD7E8516C3BC9D74DFCF /* Pods-CameraShareSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		672DD3FD682091A59B589BD0FFAC7F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFC283A6263640D9FD46F07DFF4C1C /* Flurry-iOS-SDK-dummy.m in Sources */,
+				63A1303942B2E319D64A28717453A3C5 /* FlurryAdsEmpty.m in Sources */,
+				49147C1522E10A36DEAEE83CD1E55C81 /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE982BB421DC0263E28BCC31D47A5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEC7BEA477C0AF0FBB0F292214001C /* Pods-CameraShareSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B905D5AF4D2DE3C4CC92D34F6CE076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = C312E9008F65871B12B935A3C72BE83C /* Flurry-iOS-SDK */;
+			targetProxy = 5F38809157680BE967CB633EDC365BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66662FA823044A58380E23A5312F53A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FDF4DF952DBB3FED4D9A25A7CF2C3C /* Pods-CameraShareSample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A619BA613CAE01B2C452A4EF980903A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE20DE7220387172E9835D7DA76C4B27 /* Pods-CameraShareSample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C975B3B68D91C5EA981298791DFF3778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2F5D325A758B449E268EDF3390885C /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DFF6B44CDB67180A32A02F51F166F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2F5D325A758B449E268EDF3390885C /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD7B27B5544FD200C4E6FFE4A736BBF /* Build configuration list for PBXNativeTarget "Pods-CameraShareSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A619BA613CAE01B2C452A4EF980903A1 /* Debug */,
+				66662FA823044A58380E23A5312F53A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D8B0648874B4A5014F0119D33C0B17 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DFF6B44CDB67180A32A02F51F166F9 /* Debug */,
+				C975B3B68D91C5EA981298791DFF3778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
